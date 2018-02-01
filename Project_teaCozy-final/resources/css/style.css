@@ -1,0 +1,136 @@
+@charset "utf-8";
+/*global properties*/
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	margin: 0;
+}
+a {
+	
+}
+.flex-container{
+	display: flex;
+}
+/* header properties*/
+
+header{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid seashell;
+	height: 70px;
+	position: fixed;
+	z-index: 5;
+	background-color: black;
+	width: 100%;
+	
+}
+header img {
+	margin: 10px;
+}
+nav ul li{
+	display: inline-block;
+	
+}
+a{
+	color: seashell;
+}
+
+/*main content properties*/
+
+.mainContent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	top:70px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*mission properties*/
+#mission{
+	height:700px;
+	margin: 0 auto;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	padding-top: 70px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mission-text{
+	background-color: black;
+	margin:auto 0;
+}
+
+/*featured properties*/
+/*
+#featured{
+	
+	margin: auto;
+}
+.featured{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+*/
+.teas{
+	margin: 0 25px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.tea{
+	width: 300px;
+/*	min-height: auto;*/
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.teas img{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+/*locations properties*/
+#locations{
+	margin: 0 auto;
+	background: url(../images/img-locations-background.jpg) no-repeat;
+	padding: 50px 0 100px 0;
+}
+#locations h2 {
+    
+}
+.locations {	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.location {
+	width: 300px;
+/*	height: 300px;*/
+	margin: 15px 20px;
+	opacity: 1.0;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+/*footer properties*/
+
+footer {
+	margin-top: 100px;
+}
+.copyright{
+	margin-left: 20px;
+	text-align: left;
+	 font-size: 14px;
+}
